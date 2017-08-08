@@ -1,0 +1,78 @@
+body {
+    background: url('background.jpg') fixed;
+}
+
+h1 {
+    color: navy;
+    text-align: center;
+    font-family: 'Trebuchet MS';
+}
+
+h2 {
+	color: darkmagenta;
+	font-family: 'Trebuchet MS';
+	font-size: 30px;
+}
+
+p {
+    font-family: 'Trebuchet MS';
+    font-size: 20px;
+
+}
+
+form {
+	font-family: 'Trebuchet MS';
+    
+    
+}
+
+div {
+    width: 320px;
+    padding: 5px;
+    border: 1px solid black;
+    margin: 0;
+    font-family: 'Trebuchet MS';
+    text-align: center;
+}
+
+pre {
+    font-family: 'Trebuchet MS';
+	font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+	font-family: 'Trebuchet MS';
+    top: 0;
+    width: 100%;
+	
+}
+
+li {
+    float: left;
+	font-family: 'Trebuchet MS';
+	
+}
+
+li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-family: 'Trebuchet MS';
+}
+
+li a:hover {
+    background-color: green;
+	color: whitesmoke;
+}
+	
+.active {
+    background-color: green;
+	color: whitesmoke;
+}
