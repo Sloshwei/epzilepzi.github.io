@@ -1,78 +1,30 @@
-body {
-    background: url('background.jpg') fixed;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+html, body {
+  font-family: "Open Sans";
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
 }
-
-h1 {
-    color: navy;
-    text-align: center;
-    font-family: 'Trebuchet MS';
+.tab {
+  margin-left: 10px;
+  font-size: 25px;
 }
-
-h2 {
-	color: darkmagenta;
-	font-family: 'Trebuchet MS';
-	font-size: 30px;
+.header {
+  margin-bottom: 10px;
+  background-color: #263238;
+  width: 100%;
+  font-size: 30px;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  height: 25px;
 }
-
-p {
-    font-family: 'Trebuchet MS';
-    font-size: 20px;
-
+.material-icons {
+  vertical-align: middle;
+  display: inline-block;
 }
-
-form {
-	font-family: 'Trebuchet MS';
-    
-    
-}
-
-div {
-    width: 320px;
-    padding: 5px;
-    border: 1px solid black;
-    margin: 0;
-    font-family: 'Trebuchet MS';
-    text-align: center;
-}
-
-pre {
-    font-family: 'Trebuchet MS';
-	font-size: 20px;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: black;
-	font-family: 'Trebuchet MS';
-    top: 0;
-    width: 100%;
-	
-}
-
-li {
-    float: left;
-	font-family: 'Trebuchet MS';
-	
-}
-
-li a {
-    display: block;
-    color: whitesmoke;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-	font-family: 'Trebuchet MS';
-}
-
-li a:hover {
-    background-color: darkcyan;
-	color: whitesmoke;
-}
-	
-.active {
-    background-color: darkcyan;
-	color: whitesmoke;
+.pagename {
+  font-size: 35px;
 }
