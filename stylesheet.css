@@ -15,18 +15,18 @@ html, body {
   padding-right: 15px;
 }
 .tab:hover {
-  background-color: #455A64;
+  background-color: #80DEEA;
 }
 .home {
   margin-left: 25px;
 }
 .active {
-  padding-bottom: 9px;
-  border-bottom: 3px solid #ECEFF1;
+  padding-bottom: 8px;
+  border-bottom: 4px solid #E0F7FA;
 }
 .header {
   margin-bottom: 10px;
-  background-color: #263238;
+  background-color: #00BCD4;
   width: 100%;
   font-size: 30px;
   color: white;
