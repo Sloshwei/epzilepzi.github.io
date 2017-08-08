@@ -28,7 +28,7 @@ a {
 }
 .active {
   padding-bottom: 8px;
-  border-bottom: 4px solid #E0F7FA;
+  border-bottom: 8px solid #E0F7FA;
 }
 .header {
   margin-bottom: 10px;
