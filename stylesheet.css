@@ -22,8 +22,8 @@ p {
 
 form {
 	font-family: 'Trebuchet MS';
-    
-    
+
+
 }
 
 div {
@@ -48,14 +48,14 @@ ul {
     background-color: black;
 	font-family: 'Trebuchet MS';
     top: 0;
-    width: 100%;
-	
+    width: 110%;
+
 }
 
 li {
     float: left;
 	font-family: 'Trebuchet MS';
-	
+
 }
 
 li a {
@@ -71,7 +71,7 @@ li a:hover {
     background-color: darkcyan;
 	color: whitesmoke;
 }
-	
+
 .active {
     background-color: darkcyan;
 	color: whitesmoke;
