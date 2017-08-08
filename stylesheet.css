@@ -7,8 +7,22 @@ html, body {
   overflow-x: hidden;
 }
 .tab {
-  margin-left: 10px;
+  /*margin-left: 10px;*/
   font-size: 25px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.tab:hover {
+  background-color: #455A64;
+}
+.home {
+  margin-left: 25px;
+}
+.active {
+  padding-bottom: 9px;
+  border-bottom: 3px solid #ECEFF1;
 }
 .header {
   margin-bottom: 10px;
@@ -27,4 +41,10 @@ html, body {
 }
 .pagename {
   font-size: 35px;
+}
+.page {
+  margin-left: 25px;
+}
+pre {
+  font-family: "Open Sans";
 }
