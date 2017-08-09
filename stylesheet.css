@@ -9,6 +9,27 @@ html, body {
 .desc {
   /*display: none;*/
 }
+.appcard {
+  width: 200px;
+  height: 250px;
+  border-radius: 5px;
+  background-color: #E0E0E0;
+}
+.appname {
+  font-size: 25px;
+  margin-left: 10px;
+}
+.appstatus {
+  background-color: #BDBDBD;
+  padding-left: 3px;
+  padding-right: 3px;
+  color: white;
+  border-radius: 25px;
+  margin-left: 10px;
+}
+.appauthor {
+  margin-left: 10px;
+}
 .tab {
   /*margin-left: 10px;*/
   font-size: 25px;
