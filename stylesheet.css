@@ -1,78 +1,80 @@
-body {
-    background: url('background.jpg') fixed;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+html, body {
+  font-family: "Open Sans";
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
 }
-
-h1 {
-    color: navy;
-    text-align: center;
-    font-family: 'Trebuchet MS';
+.desc {
+  /*display: none;*/
 }
-
-h2 {
-	color: darkmagenta;
-	font-family: 'Trebuchet MS';
-	font-size: 30px;
+.appcard {
+  width: 200px;
+  height: 250px;
+  border-radius: 5px;
+  background-color: #E0E0E0;
 }
-
-p {
-    font-family: 'Trebuchet MS';
-    font-size: 20px;
-
+.appname {
+  font-size: 25px;
+  margin-left: 10px;
 }
-
-form {
-	font-family: 'Trebuchet MS';
-    
-    
+.appstatus {
+  background-color: #BDBDBD;
+  padding-left: 3px;
+  padding-right: 3px;
+  color: white;
+  border-radius: 25px;
+  margin-left: 10px;
 }
-
-div {
-    width: 320px;
-    padding: 5px;
-    border: 1px solid black;
-    margin: 0;
-    font-family: 'Trebuchet MS';
-    text-align: center;
+.appauthor {
+  margin-left: 10px;
 }
-
-pre {
-    font-family: 'Trebuchet MS';
-	font-size: 20px;
+.tab {
+  /*margin-left: 10px;*/
+  font-size: 25px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color:inherit;
+  text-decoration: none;
 }
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: black;
-	font-family: 'Trebuchet MS';
-    top: 0;
-    width: 100%;
-	
+a {
+  color:inherit;
+  text-decoration: none;
 }
-
-li {
-    float: left;
-	font-family: 'Trebuchet MS';
-	
+.tab:hover {
+  background-color: #80DEEA;
 }
-
-li a {
-    display: block;
-    color: whitesmoke;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-	font-family: 'Trebuchet MS';
+.home {
+  margin-left: 25px;
 }
-
-li a:hover {
-    background-color: darkcyan;
-	color: whitesmoke;
-}
-	
 .active {
-    background-color: darkcyan;
-	color: whitesmoke;
+  padding-bottom: 8px;
+  border-bottom: 4px solid #E0F7FA;
+}
+.header {
+  margin-bottom: 10px;
+  background-color: #00BCD4;
+  width: 100%;
+  font-size: 30px;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  height: 25px;
+}
+.material-icons {
+  vertical-align: middle;
+  display: inline-block;
+}
+.pagename {
+  font-size: 35px;
+}
+.page {
+  margin-left: 25px;
+}
+pre {
+  font-family: "Open Sans";
 }

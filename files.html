@@ -1,28 +1,45 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
 <link rel="stylesheet" href="stylesheet.css">
 <link href="stylesheet.css" rel="stylesheet" type="text/css">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<div class="header desc">Epzilepzi's Site
+  <a href="index.html"><span class="tab home">Home</span></a>
+  <a href="files.html"><span class="tab active">Files</span></a>
+  <a href="Methematics.html"><span class="tab">Methematics</span></a>
+  <a href="memes.html"><span class="tab">Memes</span></a>
+  <a href="about.html"><span class="tab">About</span></a>
+  <a href="marketplace.html"><span class="tab">Marketplace</span></a>
+</div>
 
-<ul>
-  <li><a href="index.html">Home</a></li>
-  <li><a class="active" href="files.html">Files</a></li>
-  <li><a href="memes.html">Memes</a></li>
-  <li><a href="about.html">About</a></li>
-</ul>
-
-<title> Files - Epzilepzi's Site </title>
+<title>Files - Epzilepzi's Site</title>
 </head>
 
 <body>
+<div class="page desc">
+  <h1>Files</h1>
+	<p>All future files will be uploaded onto this page.</p>
+  <h2> Here's the Pink Floyd logo for some reason? </h2>
+  <img src="images/pinkfloyd.jpg" alt="Pink Floyd" style="width:1100px;height:600px;border:2px solid black">
+  <p> This is a test </p>
+<p> There will be no memes on this chat homes </p>
 
-	<h1> Files </h1>
-	<p> All future files will be uploaded onto this page. </p>
-
-  <h2> Here's the background image: </h2>
-  <li><a href="background.jpg">Background</a></li>
-
+</div>
+<script>
+/*$(document).ready(function() {
+    $('.desc').fadeIn();
+    $('a').click(function(e) {
+      e.preventDefault();
+      newLocation = this.href;
+      $('body').fadeOut(newpage);
+    });
+    function newpage() {
+      window.location = newLocation;
+    }
+});*/
+</script>
 </body>
 </html>
