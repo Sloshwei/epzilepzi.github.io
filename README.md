@@ -14,3 +14,8 @@ SFL101
 Simon
 Charlie
 Josh
+
+Instructions:
+1. Download Github Desktop.
+2. Download Atom.
+3. Join our discord.
