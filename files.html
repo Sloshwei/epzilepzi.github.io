@@ -5,8 +5,8 @@
 <link href="stylesheet.css" rel="stylesheet" type="text/css">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
-<div class="header">Epzilepzi's Site
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<div class="header desc">Epzilepzi's Site
   <a href="index.html"><span class="tab home">Home</span></a>
   <a href="files.html"><span class="tab active">Files</span></a>
   <a href="Methematics.html"><span class="tab">Methematics</span></a>
@@ -18,12 +18,25 @@
 </head>
 
 <body>
-<div class="page">
+<div class="page desc">
   <h1>Files</h1>
 	<p>All future files will be uploaded onto this page.</p>
   <h2> Here's the Pink Floyd logo for some reason? </h2>
   <img src="images/pinkfloyd.jpg" alt="Pink Floyd" style="width:1100px;height:600px;border:2px solid black">
 
 </div>
+<script>
+/*$(document).ready(function() {
+    $('.desc').fadeIn();
+    $('a').click(function(e) {
+      e.preventDefault();
+      newLocation = this.href;
+      $('body').fadeOut(newpage);
+    });
+    function newpage() {
+      window.location = newLocation;
+    }
+});*/
+</script>
 </body>
 </html>

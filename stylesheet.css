@@ -6,6 +6,9 @@ html, body {
   max-width: 100%;
   overflow-x: hidden;
 }
+.desc {
+  /*display: none;*/
+}
 .tab {
   /*margin-left: 10px;*/
   font-size: 25px;
