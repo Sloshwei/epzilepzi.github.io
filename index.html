@@ -5,8 +5,8 @@
 <link href="stylesheet.css" rel="stylesheet" type="text/css">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
-<div class="header">Epzilepzi's Site
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<div class="header desc">Epzilepzi's Site
   <a href="index.html"><span class="tab active home">Home</span></a>
   <a href="files.html"><span class="tab">Files</span></a>
   <a href="Methematics.html"><span class="tab">Methematics</span></a>
@@ -18,7 +18,7 @@
 </head>
 
 <body>
-  <div class="page">
+  <div class="page desc">
 <h1> Welcome to the Site </h1>
 <p>Hello! In case you didn't realise there is nothing here at the moment.</p>
 <pre>
@@ -38,5 +38,18 @@
                                             2017
 </pre>
 </div>
+<script>
+/*$(document).ready(function() {
+    $('.desc').fadeIn();
+    $('a').click(function(e) {
+      e.preventDefault();
+      newLocation = this.href;
+      $('body').fadeOut(newpage);
+    });
+    function newpage() {
+      window.location = newLocation;
+    }
+});*/
+</script>
 </body>
 </html>
